@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
-  background-color: #d1d5db;
+  /* background-color: #d1d5db; */
 }
 header{
 display: flex;
@@ -14,7 +14,9 @@ height:80px;
 justify-content: center;
 align-items: center;
 background-color: white;
-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06)
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+flex-grow:  1;
+width: 100%;
 }
 header > img{
   width: 50px;
@@ -54,3 +56,10 @@ main{
   content: "+";
   margin-right: 5px;
 }
+ul {
+   /* Adjust this value if needed */
+  margin: 0;
+  list-style-type: disc; /* Ensures dots are visible */
+
+}
+
